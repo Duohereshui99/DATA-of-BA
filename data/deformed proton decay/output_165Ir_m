@@ -1,0 +1,61 @@
+Q= 1.7457519359877551
+rso= 5.528440711546412
+r0= 6.851603666994003
+Rc0= 6.623181446506097
+Total lifetime: 2.260e-04 s
+/home/bojizheng/fit.test/deformed/deformed.py:142: RuntimeWarning: invalid value encountered in log
+  inside_term = r_row**2 / 5 + r_row**2 * np.log(Rc_col / r_row)
+/home/bojizheng/fit.test/deformed/deformed.py:142: RuntimeWarning: invalid value encountered in log
+  inside_term = r_row**2 / 5 + r_row**2 * np.log(Rc_col / r_row)
+/home/bojizheng/fit.test/deformed/deformed.py:142: RuntimeWarning: invalid value encountered in log
+  inside_term = r_row**2 / 5 + r_row**2 * np.log(Rc_col / r_row)
+/home/bojizheng/fit.test/deformed/deformed.py:142: RuntimeWarning: invalid value encountered in log
+  inside_term = r_row**2 / 5 + r_row**2 * np.log(Rc_col / r_row)
+========== Posterior Predictive Distribution of Lifetime ==========
+experiment data: [0.00033] s
+Number of posterior samples used: 5000
+Mean lifetime      : 3.245e-04 s
+Median lifetime    : 3.244e-04 s
+Standard deviation : 3.047e-05 s
+1σ error bar (±)   : 3.047e-05 s
+2σ error bar (±)   : 6.094e-05 s
+68% CI (1σ)        : [2.942e-04, 3.544e-04] s
+95% CI (2σ)        : [2.644e-04, 3.863e-04] s
+===================================================================
+
+=== 后验相关系数矩阵 (Pearson, 4位小数) ===
+            $V_0$   $a_0$   $r_0$  ...  $V_{so0}$  $R_{so}$  $a_{so}$
+$V_0$      1.0000 -0.0200 -0.0089  ...    -0.0344   -0.0245   -0.0258
+$a_0$     -0.0200  1.0000 -0.0939  ...     0.0217   -0.0624    0.0069
+$r_0$     -0.0089 -0.0939  1.0000  ...    -0.0310    0.0100   -0.1066
+$P_0$     -0.0468 -0.0790 -0.2757  ...     0.0413   -0.0126   -0.0560
+$R_{c0}$  -0.0355  0.0080  0.0267  ...     0.0218    0.0156   -0.0880
+$\beta_2$ -0.0562 -0.0008  0.0109  ...    -0.0328    0.0167    0.0879
+$\beta_4$  0.0004 -0.0401  0.0496  ...     0.0510    0.0015   -0.0476
+$V_{so0}$ -0.0344  0.0217 -0.0310  ...     1.0000   -0.0294   -0.0201
+$R_{so}$  -0.0245 -0.0624  0.0100  ...    -0.0294    1.0000   -0.0678
+$a_{so}$  -0.0258  0.0069 -0.1066  ...    -0.0201   -0.0678    1.0000
+
+[10 rows x 10 columns]
+
+=== 关键参数对的后验相关系数 ===
+$\beta_2$    与 $V_{so0}$    : -0.0328
+$\beta_4$    与 $R_{so}$     : +0.0015
+$\beta_2$    与 $a_0$        : -0.0008
+$\beta_2$    与 $a_{so}$     : +0.0879
+$\beta_2$    与 $R_{c0}$     : +0.0005
+$V_{so0}$    与 $R_{so}$     : -0.0294
+
+======================================================================
+Parameter Sensitivity Analysis: Impact of ±1σ variation on lifetime
+======================================================================
+$V_0$        : τ from 2.637e-04 to 2.374e-04 s  (± -5.3% relative change)
+$a_0$        : τ from 2.756e-04 to 2.255e-04 s  (±-10.1% relative change)
+$r_0$        : τ from 3.081e-04 to 2.003e-04 s  (±-21.6% relative change)
+$P_0$        : τ from 3.232e-04 to 1.986e-04 s  (±-25.0% relative change)
+$R_{c0}$     : τ from 2.487e-04 to 2.499e-04 s  (±  0.2% relative change)
+$\beta_2$    : τ from 2.933e-04 to 3.055e-04 s  (±  2.5% relative change)
+$\beta_4$    : τ from 2.633e-04 to 1.895e-04 s  (±-14.8% relative change)
+$V_{so0}$    : τ from 2.558e-04 to 2.431e-04 s  (± -2.5% relative change)
+$R_{so}$     : τ from 2.528e-04 to 2.457e-04 s  (± -1.4% relative change)
+$a_{so}$     : τ from 2.498e-04 to 2.488e-04 s  (± -0.2% relative change)
